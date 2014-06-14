@@ -13,6 +13,6 @@ class EnergyLog < ActiveRecord::Base
   end
 
   def self.get_last
-    order(timestamp: :desc).limit(1)
+    order(timestamp: :desc).limit(1).first
   end
 end
