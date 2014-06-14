@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1759265961">
+    <data-source source="LOCAL" name="Rails trackmyenergy: development" uuid="2c0e467a-74bf-4c88-b14f-a15fdbe95725">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://37.139.19.176:5432/energy</jdbc-url>
+      <user-name>energy</user-name>
+      <user-password>dfcfdfc4dfcfdfd8dfcddfd3df98df9adf9bdf9e</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails trackmyenergy: production" uuid="32b9b800-f203-41c7-bc30-f837e271aa97">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://37.139.19.176:5432/energy</jdbc-url>
+      <user-name>energy</user-name>
+      <user-password>dfcfdfc4dfcfdfd8dfcddfd3df98df9adf9bdf9e</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
