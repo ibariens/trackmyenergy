@@ -1,6 +1,10 @@
 class PeakDetector
+  def self.add_pattern
+
+  end
+
   def self.update_status(user)
-    status = EnergyLog.current_trend
+    status = Pattern.current_trend
     entry = UserStatus.where(:user_id => user.id).first_or_create
     entry.status = status
     entry.updated_at = Time.now

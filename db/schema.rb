@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140614155028) do
+ActiveRecord::Schema.define(version: 20140614165028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,31 +20,20 @@ ActiveRecord::Schema.define(version: 20140614155028) do
     t.integer  "user_id"
     t.datetime "timestamp"
     t.integer  "consumption"
+    t.boolean  "checked"
   end
 
-  create_table "energy_mix", id: false, force: true do |t|
-    t.time     "timestamp"
-    t.boolean  "actual"
-    t.string   "energy",      limit: 12
-    t.string   "company",     limit: 10
-    t.float    "production"
-    t.datetime "last_update"
-    t.integer  "id",                     default: "nextval('energy_mix_id_seq'::regclass)", null: false
+  create_table "energy_prices", force: true do |t|
+    t.datetime "timestamp"
+    t.float    "eur"
   end
 
   create_table "energy_productions", force: true do |t|
     t.datetime "timestamp"
-    t.boolean  "actual"
+    t.boolean  "actual",                     null: false
     t.string   "energy",         limit: 100
     t.string   "company",        limit: 100
     t.float    "production_mwh"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "patterns", force: true do |t|
-    t.string   "name"
-    t.text     "pattern"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
