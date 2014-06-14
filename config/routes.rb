@@ -7,6 +7,8 @@ Trackmyenergy::Application.routes.draw do
   # You can have the root of your site routed with "root"
    root 'main#index'
 
+  post 'pattern', to: 'data#pattern'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140614165028) do
+ActiveRecord::Schema.define(version: 20140614224337) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,13 @@ ActiveRecord::Schema.define(version: 20140614165028) do
     t.string   "energy",         limit: 100
     t.string   "company",        limit: 100
     t.float    "production_mwh"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "patterns", force: true do |t|
+    t.string   "pattern_id"
+    t.integer  "appliance_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -14,9 +14,18 @@ class DataController < ApplicationController
     end
   end
 
-  def add_pattern
+  def pattern
+    entry = Pattern.create
+    entry.update_attributes(:appliance_id => params[:appliance_id], :pattern_id => params[:pattern_id])
 
+    respond_to do |format|
+      format.all { render :json => 'ok' }
+    end
   end
 
-
+  private
+  def pattern_params
+    params.require(:appliance_id)
+  end
 end
+
