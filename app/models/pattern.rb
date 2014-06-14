@@ -1,9 +1,14 @@
 class Pattern < ActiveRecord::Base
-  def self.current_trend(length=DEFAULT_PATTERN_LENGTH, margin=10)
+  self.table_name="energy_log_intervals_view"
 
-    usages = EnergyLog.get_last(length)
-    if (usages.max.consumption - usages.min.consumption) > margin
-      if usages.max.timestamp > usages.min.timestamp
+  def self.current_trend(length=DEFAULT_PATTERN_LENGTH, margin=10)
+    pattern = self.first.values
+    max_value = pattern.max
+    min_value = pattern.min
+    #puts "#{max_value} and #{min_value}"
+
+    if (max_value - min_value) > margin
+      if pattern.index(max_value) > pattern.index(min_value)
         return 'increasing'
       else
         return 'decreasing'
