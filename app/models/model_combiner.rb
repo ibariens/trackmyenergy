@@ -8,7 +8,7 @@ class ModelCombiner
 
     if UserStatus.for_user(user).is_changing? && UserStatus.for_user(user).action_required?(pattern_string)
       result[:response][:action_required] = true
-      result[:response].merge! UserStatus.define_action
+      result[:response].merge! UserStatus.for_user(user).define_action
     end
 
   result
