@@ -4,11 +4,9 @@ class ModelCombiner
     result[:response].merge! EnergyLog.create_recent_data(user)
     result[:response][:action_required] = false
 
-    pattern_string = 'unknown'
-
-    if UserStatus.for_user(user).is_changing? && UserStatus.for_user(user).action_required?(pattern_string)
+    if UserStatus.for_user(user).status && (UserStatus.for_user(user).status.include? 'Pattern')
       result[:response][:action_required] = true
-      result[:response].merge! Pattern.define_action(pattern_string)
+      result[:response].merge! Pattern.define_action(UserStatus.for_user(user).status)
     end
 
   result
