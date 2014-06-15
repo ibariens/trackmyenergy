@@ -6,7 +6,7 @@ class PeakDetector
     if actual_status == stored_status_entry.status
       return
 
-    elsif stored_status_entry.status.include? 'Idle' || (stored_status_entry.status.include? 'Action')
+    elsif (stored_status_entry.status.include? 'Idle') || (stored_status_entry.status.include? 'Action')
       stored_status_entry.status = actual_status
 
     else
