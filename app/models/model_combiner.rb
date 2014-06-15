@@ -7,7 +7,12 @@ class ModelCombiner
     if UserStatus.for_user(user).status && (UserStatus.for_user(user).status.include? 'Pattern')
       result[:response][:action_required] = true
       result[:response].merge! Pattern.define_action(UserStatus.for_user(user).status)
+    elsif UserStatus.for_user(user).status && (UserStatus.for_user(user).status.include? 'Vacuum cleaner detected')
+      result[:response][:action_required] = false
+      result[:response].merge! Pattern.define_action(UserStatus.for_user(user).status)
     end
+
+
 
   result
   end
