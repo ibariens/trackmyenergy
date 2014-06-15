@@ -71,7 +71,7 @@
       <file leaf-file-name="energy_mix.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/energy_mix.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="429" selection-end="429" vertical-scroll-proportion="0.46232876" vertical-offset="0" max-vertical-offset="666">
+            <state line="7" column="47" selection-start="176" selection-end="176" vertical-scroll-proportion="0.21575342" vertical-offset="0" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -1022,7 +1022,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/energy_mix.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="429" selection-end="429" vertical-scroll-proportion="0.46232876" vertical-offset="0" max-vertical-offset="666">
+        <state line="7" column="47" selection-start="176" selection-end="176" vertical-scroll-proportion="0.21575342" vertical-offset="0" max-vertical-offset="666">
           <folding />
         </state>
       </provider>

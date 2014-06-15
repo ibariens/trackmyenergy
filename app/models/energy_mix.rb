@@ -5,7 +5,7 @@ class EnergyMix < ActiveRecord::Base
   def self.create_recent_data
     actual_usage = self.first
 
-    last_usage = EnergyLog.get_last
+    last_usage = EnergyLog.get_last.consumption
     wind       = (actual_usage.wind_share*100)
     sun        = (actual_usage.solar_share*100)
     fire       = (100 - wind - sun)
@@ -13,7 +13,7 @@ class EnergyMix < ActiveRecord::Base
     eur_saved  = EnergyMix.sum(:eur_saved)
 
 
-    {:current_usage => {:energy => last_usage,
+    {:current_usage => {:energy => last_usage.round(2),
                         :wind => wind.round(2),
                         :sun => sun.round(2),
                         :fire => fire.round(2),
