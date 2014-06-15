@@ -1,7 +1,7 @@
 class ModelCombiner
   def self.create_recent_data(user)
     result = {:response => {:user_id => user.id}}
-    result[:response].merge! EnergyLog.create_recent_data(user)
+    result[:response].merge! EnergyMix.create_recent_data
     result[:response][:action_required] = false
 
     if UserStatus.for_user(user).status && (UserStatus.for_user(user).status.include? 'Pattern')
