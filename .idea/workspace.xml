@@ -35,7 +35,7 @@
       <file leaf-file-name="appliance.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/appliance.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+            <state line="11" column="7" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="pattern_view.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+            <state line="11" column="69" selection-start="462" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="pattern.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="205" selection-end="205" vertical-scroll-proportion="0.12811388" vertical-offset="0" max-vertical-offset="562">
+            <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
               <folding />
             </state>
           </provider>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/lib/peak_detector.rb" />
         <option value="$PROJECT_DIR$/app/models/user_status.rb" />
         <option value="$PROJECT_DIR$/app/models/model_combiner.rb" />
-        <option value="$PROJECT_DIR$/app/models/appliance.rb" />
         <option value="$PROJECT_DIR$/app/models/pattern_view.rb" />
+        <option value="$PROJECT_DIR$/app/models/appliance.rb" />
         <option value="$PROJECT_DIR$/app/models/pattern.rb" />
       </list>
     </option>
@@ -942,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/appliance.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/default_settings.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
@@ -998,6 +991,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="462" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="52" selection-start="404" selection-end="417" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="756">
@@ -1005,16 +1005,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/appliance.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+        <state line="11" column="7" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="205" selection-end="205" vertical-scroll-proportion="0.12811388" vertical-offset="0" max-vertical-offset="562">
+        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>
