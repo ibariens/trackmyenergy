@@ -17,7 +17,7 @@ class EnergyMix < ActiveRecord::Base
                         :wind => wind.round(2),
                         :sun => sun.round(2),
                         :fire => fire.round(2),
-                        :co_two_saved => c02_saved.round(2),
-                        :eur_saved => eur_saved.round(2)}}
+                        :co_two_saved => EnergyMix.sum(:co2_saved),
+                        :eur_saved => EnergyMix.sum(:eur_saved)}}
   end
 end

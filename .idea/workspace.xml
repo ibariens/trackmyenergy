@@ -35,7 +35,7 @@
       <file leaf-file-name="model_combiner.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="529" selection-end="529" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="756">
+            <state line="27" column="40" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="energy_mix.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/energy_mix.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.7089041" vertical-offset="0" max-vertical-offset="584">
+            <state line="23" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.7089041" vertical-offset="0" max-vertical-offset="584">
               <folding />
             </state>
           </provider>
@@ -985,13 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/appliance.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="54" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
@@ -1013,16 +1006,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="529" selection-end="529" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="756">
+        <state line="27" column="40" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/energy_mix.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.7089041" vertical-offset="0" max-vertical-offset="584">
+        <state line="23" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.7089041" vertical-offset="0" max-vertical-offset="584">
           <folding />
         </state>
       </provider>
