@@ -13,7 +13,7 @@ class EnergyMix < ActiveRecord::Base
     eur_saved  = EnergyMix.sum(:eur_saved)
 
 
-    {:current_usage => {:energy => last_usage.round(2),
+    {:current_usage => {:energy => last_usage,
                         :wind => wind.round(2),
                         :sun => sun.round(2),
                         :fire => fire.round(2),
