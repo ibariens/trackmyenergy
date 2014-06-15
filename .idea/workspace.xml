@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model_combiner.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="model_combiner.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="469" selection-end="469" vertical-scroll-proportion="0.38779175" vertical-offset="0" max-vertical-offset="558">
+            <state line="12" column="5" selection-start="469" selection-end="469" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pattern_view.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pattern_view.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+            <state line="26" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="0.80136985" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -151,13 +151,13 @@
         <option value="$PROJECT_DIR$/db/migrate/20140614165030_create_appliances.rb" />
         <option value="$PROJECT_DIR$/config/initializers/default_settings.rb" />
         <option value="$PROJECT_DIR$/app/models/user_status.rb" />
-        <option value="$PROJECT_DIR$/app/models/pattern_view.rb" />
         <option value="$PROJECT_DIR$/app/models/appliance.rb" />
         <option value="$PROJECT_DIR$/app/models/pattern.rb" />
         <option value="$PROJECT_DIR$/lib/peak_detector.rb" />
         <option value="$PROJECT_DIR$/app/models/energy_log.rb" />
         <option value="$PROJECT_DIR$/app/models/energy_mix.rb" />
         <option value="$PROJECT_DIR$/app/models/model_combiner.rb" />
+        <option value="$PROJECT_DIR$/app/models/pattern_view.rb" />
       </list>
     </option>
   </component>
@@ -1006,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="54" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
@@ -1022,7 +1015,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="469" selection-end="469" vertical-scroll-proportion="0.38779175" vertical-offset="0" max-vertical-offset="558">
+        <state line="12" column="5" selection-start="469" selection-end="469" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="0.80136985" vertical-offset="0" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
