@@ -1,5 +1,5 @@
 class Pattern < ActiveRecord::Base
-  def define_action(status_message)
+  def self.define_action(status_message)
     status_array = status_message.split(' ')
     if status_array.include? 'Pattern'
       {:action => {:message => 'status_message',

@@ -9,9 +9,9 @@ class PatternView < ActiveRecord::Base
       event_type = pattern_view.event_type_happened
 
       if known_pattern
-        result = "Pattern #{pattern_id} Identified and Turned #{event_type}"
+        result = "Action: Pattern #{pattern_id} Identified and Turned #{event_type}"
       else
-        result = "Pattern #{pattern_id} Request identification and Turned #{event_type}"
+        result = "Action: Pattern #{pattern_id} Request identification and Turned #{event_type}"
       end
     else
       result = 'Idle'
