@@ -4,8 +4,8 @@ class Pattern < ActiveRecord::Base
     if status_array.include? 'Identified and Turned'
       {:action => {:message => status_message,
                    :pattern_id => status_array[2],
-                   :appliance_name => Appliance.fetch_name(status_array[2]),
-                   :device_choice => Appliance.get_device_list}}
+                   :appliance_name => Appliance.fetch_name(status_array[2])}
+                   }
     else status_array.include? 'Request identification'
         {:action => {:message => status_message,
                      :pattern_id => status_array[2],

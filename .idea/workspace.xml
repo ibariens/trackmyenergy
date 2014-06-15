@@ -98,7 +98,7 @@
       <file leaf-file-name="pattern.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
+            <state line="6" column="76" selection-start="348" selection-end="348" vertical-scroll-proportion="0.19217081" vertical-offset="0" max-vertical-offset="562">
               <folding />
             </state>
           </provider>
@@ -1014,7 +1014,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
+        <state line="6" column="76" selection-start="348" selection-end="348" vertical-scroll-proportion="0.19217081" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>
