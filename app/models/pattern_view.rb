@@ -1,24 +1,32 @@
 class PatternView < ActiveRecord::Base
   self.table_name="energy_log_intervals_view"
 
-  def self.current_trend(length=DEFAULT_PATTERN_LENGTH, margin=10)
-    pattern = self.first.values
-    max_value = pattern.max
-    min_value = pattern.min
-    #puts "#{max_value} and #{min_value}"
+  def self.current_action
+    pattern_view = self.where("pattern = 1").first
+    if pattern_view && pattern_view.pattern == 1
+      pattern_id = pattern_view.change.round(-1).to_s
+      known_pattern = Pattern.where("pattern_id = ?", pattern_id).first
+      event_type = pattern_view.event_type_happened
 
-    if (max_value - min_value) > margin
-      if pattern.index(max_value) > pattern.index(min_value)
-        return 'increasing'
+      if known_pattern
+        result = "Pattern #{pattern_id} Identified and Turned #{event_type}"
       else
-        return 'decreasing'
+        result = "Pattern #{pattern_id} Request identification and Turned #{event_type}"
       end
     else
-      return 'nothing'
+      result = 'Idle'
     end
-  end
-
-  def self.energy_moving_average(n=DEFAULT_PATTERN_LENGTH)
-    EnergyLog.order(timestamp: :desc).limit(n).average(:consumption)
+  result
   end
 end
+
+
+
+
+# Action: Pattern x Identified and Turned ON
+# Action: Pattern x Identified and Turned OFF
+
+# Action: Pattern x Request identification and Turned OFF
+# Action: Pattern x Request identification and Turned ON
+
+# Idle

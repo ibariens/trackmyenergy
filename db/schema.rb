@@ -16,6 +16,13 @@ ActiveRecord::Schema.define(version: 20140614224337) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "appliances", force: true do |t|
+    t.string   "name"
+    t.float    "consumption"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "energy_logs", force: true do |t|
     t.integer  "user_id"
     t.datetime "timestamp"
