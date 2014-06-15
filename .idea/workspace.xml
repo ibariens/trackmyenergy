@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model_combiner.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="model_combiner.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="10" selection-start="456" selection-end="561" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="648">
+            <state line="6" column="171" selection-start="384" selection-end="384" vertical-scroll-proportion="0.1985294" vertical-offset="0" max-vertical-offset="648">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pattern_view.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pattern_view.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="116" selection-end="162" vertical-scroll-proportion="0.12328767" vertical-offset="0" max-vertical-offset="756">
+            <state line="28" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -156,8 +156,8 @@
         <option value="$PROJECT_DIR$/app/models/energy_log.rb" />
         <option value="$PROJECT_DIR$/app/models/energy_mix.rb" />
         <option value="$PROJECT_DIR$/app/models/pattern_view.rb" />
-        <option value="$PROJECT_DIR$/app/models/model_combiner.rb" />
         <option value="$PROJECT_DIR$/lib/peak_detector.rb" />
+        <option value="$PROJECT_DIR$/app/models/model_combiner.rb" />
       </list>
     </option>
   </component>
@@ -1013,16 +1013,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="456" selection-end="561" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="648">
+        <state line="28" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pattern_view.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="116" selection-end="162" vertical-scroll-proportion="0.12328767" vertical-offset="0" max-vertical-offset="756">
+        <state line="6" column="171" selection-start="384" selection-end="384" vertical-scroll-proportion="0.1985294" vertical-offset="0" max-vertical-offset="648">
           <folding />
         </state>
       </provider>
