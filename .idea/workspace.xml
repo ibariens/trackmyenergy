@@ -44,7 +44,7 @@
       <file leaf-file-name="model_combiner.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="52" selection-start="404" selection-end="417" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="756">
+            <state line="8" column="43" selection-start="408" selection-end="408" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="756">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="pattern.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
+            <state line="15" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
               <folding />
             </state>
           </provider>
@@ -998,13 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="404" selection-end="417" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/appliance.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="7" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
@@ -1012,9 +1005,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/model_combiner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="43" selection-start="408" selection-end="408" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/pattern.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
+        <state line="15" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.48042706" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>
