@@ -17,7 +17,7 @@ class PatternView < ActiveRecord::Base
       result = 'Idle'
     end
 
-    if pattern_view.pattern == 1 && (pattern_view.change.round(-1) > 600)
+    if pattern_view && (pattern_view.pattern == 1) && (pattern_view.change.round(-1) > 600)
       result = 'Vacuum cleaner detected'
     end
 
